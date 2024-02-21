@@ -4,7 +4,7 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
-    server-->>browser: CSS file
+    server-->>browser: HTML, JS and CSS rendered
     deactivate server
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
